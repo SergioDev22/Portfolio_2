@@ -49,7 +49,7 @@ export const AboutSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-start">
               <a
-                href="/cv-gaelle-rabeninary.pdf"
+                href="https://drive.google.com/file/d/13p9HE3l6x6BdGXBqv4sogCG6_PCHtlp-/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:br-primary/10 hover:scale-x-105 transition duration-300 text-center"
