@@ -16,11 +16,15 @@ export const HeroSection = () => {
                 className="absolute -inset-5 rounded-full bg-primary/20 blur-3xl"
               />
               <div className="relative rounded-full p-[6px] bg-gradient-to-br from-primary via-primary/40 to-primary/10 shadow-2xl">
-                <img
-                  src="/profile.jpeg"
-                  alt="Gaëlle RABENINARY"
-                  className="w-44 h-44 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full object-cover object-top bg-card"
-                />
+                {/* Photo cadree large : on centre le visage via object-position,
+                    puis on zoome pour lui donner de la presence dans le cercle */}
+                <div className="w-44 h-44 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full overflow-hidden bg-card">
+                  <img
+                    src="/profile.jpeg"
+                    alt="Gaëlle RABENINARY"
+                    className="w-full h-full object-cover object-[center_13%] scale-[1.4]"
+                  />
+                </div>
               </div>
             </div>
           </div>
