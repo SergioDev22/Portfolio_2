@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {theme === "light" && <ParticlesComponent id="particles" />}
-      <ThemeToggle />
+      <ThemeToggle className="fixed top-5 right-5 max-md:hidden" />
       <StarBackground />
       <Navbar />
 

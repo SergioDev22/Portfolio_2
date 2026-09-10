@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { Moon, Sun } from "lucide-react";
 import { ThemeContext } from "../utils/context";
 
-export const ThemeToggle = () => {
+export const ThemeToggle = ({ className }) => {
   const { toggleTheme, theme } = useContext(ThemeContext);
   const isDarkMode = theme === "dark";
 
@@ -15,8 +15,8 @@ export const ThemeToggle = () => {
       onClick={toggleTheme}
       aria-label="Toggle theme"
       className={cn(
-        "fixed max-sm:hidden top-5 right-5 p-2  rounded-full transition-colors duration-300",
-        "focus: outlin-hidden"
+        "p-2 rounded-full transition-colors duration-300 focus:outline-none",
+        className
       )}
     >
       {isDarkMode ? (
