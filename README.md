@@ -1,6 +1,6 @@
 # Portfolio — Gaëlle Rabeninary
 
-Portfolio personnel de Gaëlle Rabeninary, coordinatrice polyvalente
+Portfolio personnel de Gaëlle Rabeninary, coordinatrice opérationnelle
 (assistanat de Direction, Ressources Humaines, Services Généraux et Logistique).
 
 Basé sur React + Vite + Tailwind CSS, avec Framer Motion pour les animations

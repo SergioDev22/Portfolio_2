@@ -40,7 +40,7 @@ export const HeroSection = () => {
                 Bonjour, je suis Gaëlle RABENINARY
               </span>
               <span className="block !text-primary opacity-0 animate-fade-in-delay-2">
-                Coordinatrice polyvalente.
+                Coordinatrice Opérationnelle.
               </span>
               <span className="block opacity-0 animate-fade-in-delay-3">
                 basée à Antananarivo.
